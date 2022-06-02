@@ -6,6 +6,7 @@
   --primary-white-color: #ffffff;
   --button-bg-color: #f5f4fa;
   --hover-bg-prbutton: #188ce8;
+  --part-logo: #000000;
 }
 h1,
 h2,
@@ -350,6 +351,7 @@ ul {
 .lfooter {
   margin-bottom: 20px;
 }
+
 .listf {
   list-style: none;
   margin-top: 0;
@@ -369,4 +371,36 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.social-list-footer {
+  display: flex;
+}
+
+.social-item-footer {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.social-item-footer:last-child {
+  margin-right: 0;
+}
+
+.aspect-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.aspect-link-footer:hover,
+.aspect-link-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.aspect-icon-footer {
+  fill: var(--main-white-color);
 }
